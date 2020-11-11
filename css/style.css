@@ -179,3 +179,20 @@ main hr {
 .third-section p {
   margin: 20px 0;
 }
+
+/* fourth-section */
+.fourth-section {
+  position: relative;
+  height: 150px;
+  line-height: 150px;
+}
+
+.left-fsection {
+  position:absolute;
+  left: 0;
+}
+
+.right-fsection {
+  position:absolute;
+  right: 0;
+}
