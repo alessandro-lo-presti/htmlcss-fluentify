@@ -127,3 +127,12 @@ header a:hover {
   padding-bottom: 25px;
   color: grey;
 }
+
+/* second-section */
+.second-section img {
+  width: 100px;
+}
+
+.box {
+  width: calc(100% / 3);
+}
