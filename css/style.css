@@ -30,6 +30,7 @@ header {
 
 /* header-top */
 .header-top {
+  height: 80px;
   position: relative;
   line-height: 80px;
 }
@@ -40,6 +41,7 @@ header {
 
 .header-logo {
   width: 15%;
+  padding-top: 10px;
 }
 
 .header-login {
