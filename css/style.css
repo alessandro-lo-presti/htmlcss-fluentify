@@ -9,6 +9,16 @@
   margin: auto;
 }
 
+.float-left {
+  float: left;
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
 /* header */
 header {
   background-color: #001a4f;
