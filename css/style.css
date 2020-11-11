@@ -162,10 +162,20 @@ main hr {
 
 /* third-section */
 .third-section {
-  text-align: center;
   background-color: white;
 }
 
 .third-section .box {
-  width: calc(100% / 3);
+  width: calc(100% / 2);
+  margin: 40px 0;
+  padding: 0 85px;
+}
+
+.third-section .box h2 {
+  line-height: 55px;
+  font-size: 40px;
+}
+
+.third-section p {
+  margin: 20px 0;
 }
