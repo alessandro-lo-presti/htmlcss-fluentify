@@ -49,6 +49,10 @@ header {
   display: inline-block;
 }
 
+.header-top a {
+  text-transform: uppercase;
+}
+
 .header-logo {
   width: 15%;
   padding-top: 10px;
