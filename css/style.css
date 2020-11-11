@@ -110,10 +110,12 @@ header a:hover {
 }
 
 /* main */
+main {
+  background-color: lightgrey;
+}
 
 /* first-section */
 .first-section {
-  background-color: lightgrey;
   text-align: center;
 }
 
@@ -129,10 +131,23 @@ header a:hover {
 }
 
 /* second-section */
-.second-section img {
-  width: 100px;
+.second-section {
+  text-align: center;
+  background-color: white;
 }
 
 .box {
   width: calc(100% / 3);
+  margin: 40px 0;
+  padding: 0 30px;
+}
+
+.box img {
+  height: 120px;
+}
+
+.box hr {
+  width: 20%;
+  margin: 20px 0;
+  color: lightgrey;
 }
