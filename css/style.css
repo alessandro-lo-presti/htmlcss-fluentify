@@ -8,6 +8,11 @@ ul {
   list-style: none;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -26,6 +31,10 @@ ul {
 /* header */
 header {
   background-color: #001a4f;
+  background-image: url("../img/background-header.png");
+  background-size: 50%;
+  background-position: 105% 110%;
+  background-repeat: no-repeat;
 }
 
 /* header-top */
@@ -36,6 +45,7 @@ header {
 }
 
 .header-top li {
+  padding: 0 10px;
   display: inline-block;
 }
 
@@ -47,4 +57,10 @@ header {
 .header-login {
   position: absolute;
   right: 0px;
+}
+
+/* jumbotron */
+.jumbotron {
+  height: 470px;
+
 }
