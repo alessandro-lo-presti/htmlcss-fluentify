@@ -33,6 +33,7 @@ ul {
   text-transform: uppercase;
   border: 1px solid white;
   border-radius: 3px;
+  color: white;
 }
 
 .btn:hover {
@@ -196,4 +197,15 @@ main hr {
 .right-fsection {
   position:absolute;
   right: 0;
+  color: grey;
+}
+
+.right-fsection select {
+  margin: 0 15px;
+  background: transparent;
+  -webkit-appearance: none;
+  border: none;
+  color: grey;
+  text-decoration: underline;
+  font-size: 18px;
 }
