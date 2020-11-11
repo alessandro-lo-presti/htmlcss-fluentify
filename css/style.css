@@ -108,3 +108,22 @@ header a:hover {
   font-size: 50px;
   margin-bottom: 45px;
 }
+
+/* main */
+
+/* first-section */
+.first-section {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.first-section h2 {
+  margin-bottom: 10px;
+  padding-top: 25px;
+  color: black;
+}
+
+.first-section p {
+  padding-bottom: 25px;
+  color: grey;
+}
