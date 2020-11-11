@@ -78,6 +78,10 @@ header a {
 .jumbotron div{
   width: 50%;
   position: absolute;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
+}
+
+.jumbotron h1 {
+  font-size: 50px;
 }
