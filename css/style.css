@@ -35,6 +35,12 @@ header {
   background-size: 50%;
   background-position: 105% 110%;
   background-repeat: no-repeat;
+  color: white;
+}
+
+header a {
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 /* header-top */
@@ -47,10 +53,6 @@ header {
 .header-top li {
   padding: 0 10px;
   display: inline-block;
-}
-
-.header-top a {
-  text-transform: uppercase;
 }
 
 .header-logo {
@@ -66,5 +68,12 @@ header {
 /* jumbotron */
 .jumbotron {
   height: 470px;
+  position: relative;
+}
 
+.jumbotron div{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
